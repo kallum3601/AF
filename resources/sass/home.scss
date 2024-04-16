@@ -1,0 +1,23 @@
+#home-menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    #home-analytics-container, #home-navigation-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    #home-analytics-container{
+        div{
+            background-color: rgba(0, 0, 0, 0.274);
+            width: 15%;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 50px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+        }
+    }
+}

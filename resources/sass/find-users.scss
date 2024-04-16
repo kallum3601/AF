@@ -1,0 +1,17 @@
+#find-users-search-container{
+    display: block;
+    width: 100%;
+
+    form{
+        width: 40%;
+        margin: 10px auto 10px auto;
+        
+        input{
+            width: 100%;
+            font-size: 1.5rem;
+            border: none;
+            border: 1px solid rgba(0, 0, 0, 0.253);
+            border-radius: 10px;
+        }
+    }
+}

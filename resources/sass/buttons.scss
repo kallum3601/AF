@@ -1,0 +1,51 @@
+button{
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.login-register-btn{
+    display: block;
+    border: none;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    transition: background-color 0.5s ease;
+}
+
+.login-register-btn:hover{
+    background-color: rgb(216, 215, 215);
+}
+
+.home-menu-anchor{
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.1rem;
+    padding: 20px;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+
+.home-menu-anchor:hover{
+    transform: translateY(-10px);
+}
+
+.default-btn{
+    display: block;
+    border: none;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    transition: background-color 0.5s ease;
+}
+
+.default-btn:hover{
+    background-color: rgb(216, 215, 215);
+}
